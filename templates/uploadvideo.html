@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Active Deep Learning</title>
+	<link rel="stylesheet" type="text/css" href="../static/index.css">
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="../static/index.js"></script>
+</head>
+<body>
+<p class="text-center">Insulator Detection in a Video</p>
+<h1 class="text-center">
+    Upload the video file for detection
+</h1>
+
+
+
+
+
+<div class='App'>
+    <header class='App-header'>
+        <div className="pre_img">
+          <span><img id="imagebox" src=""></span>
+        </div>
+        <form>
+          <input id="imageinput" type="file" name="imagefile" onchange="readUrl(this)">
+        </form>
+			<button name="send" id = "sendbutton">Detect</button>
+			<button name="submit" class="home_btn homepage" id="home" type="submit" value="Homepage" onclick="window.location='/';">Back to Homepage</button>
+
+
+	</header>
+</div>
+
+</body>
+</html>
